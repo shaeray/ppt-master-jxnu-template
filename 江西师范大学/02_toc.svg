@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>江西师范大学目录页模板</title>
+  <defs>
+    <linearGradient id="tocPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A13838" stop-opacity="1"/>
+      <stop offset="1" stop-color="#C16E6E" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="438" height="720" fill="url(#tocPanel)"/>
+    <rect x="48" y="58" width="314" height="8" fill="#FFFFFF" fill-opacity="0.64"/>
+    <image href="toc_photo.jpeg" x="68" y="318" width="292" height="164" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="68" y="318" width="292" height="164" fill="#000000" fill-opacity="0.22"/>
+  </g>
+  <g id="brand">
+    <image href="seal_white.png" x="70" y="102" width="96" height="96" preserveAspectRatio="xMidYMid meet"/>
+    <text x="190" y="151" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#FFFFFF">目录</text>
+    <text x="192" y="181" font-family="Arial, Microsoft YaHei" font-size="18" fill="#FFFFFF" fill-opacity="0.82">CONTENTS</text>
+    <image href="motto_white.png" x="70" y="640" width="198" height="25" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="header">
+    <image href="brand_wordmark.png" x="974" y="46" width="220" height="45" preserveAspectRatio="xMidYMid meet"/>
+    <line x1="512" y1="104" x2="1196" y2="104" stroke="#E9CAD7" stroke-width="1.5"/>
+  </g>
+  <g id="toc_items">
+    <circle cx="552" cy="190" r="25" fill="#A13838"/>
+    <text x="552" y="198" text-anchor="middle" font-family="Arial, Microsoft YaHei" font-size="23" font-weight="700" fill="#FFFFFF">01</text>
+    <text x="604" y="185" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700" fill="#262626">{{TOC_ITEM_1_TITLE}}</text>
+    <text x="604" y="222" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="17" fill="#7A7A7A">{{TOC_ITEM_1_DESC}}</text>
+    <line x1="552" y1="232" x2="552" y2="294" stroke="#E9CAD7" stroke-width="2"/>
+
+    <circle cx="552" cy="318" r="25" fill="#E9CAD7"/>
+    <text x="552" y="326" text-anchor="middle" font-family="Arial, Microsoft YaHei" font-size="23" font-weight="700" fill="#C16E6E">02</text>
+    <text x="604" y="313" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700" fill="#262626">{{TOC_ITEM_2_TITLE}}</text>
+    <text x="604" y="350" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="17" fill="#7A7A7A">{{TOC_ITEM_2_DESC}}</text>
+    <line x1="552" y1="360" x2="552" y2="422" stroke="#E9CAD7" stroke-width="2"/>
+
+    <circle cx="552" cy="446" r="25" fill="#A13838"/>
+    <text x="552" y="454" text-anchor="middle" font-family="Arial, Microsoft YaHei" font-size="23" font-weight="700" fill="#FFFFFF">03</text>
+    <text x="604" y="441" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700" fill="#262626">{{TOC_ITEM_3_TITLE}}</text>
+    <text x="604" y="478" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="17" fill="#7A7A7A">{{TOC_ITEM_3_DESC}}</text>
+    <line x1="552" y1="488" x2="552" y2="550" stroke="#E9CAD7" stroke-width="2"/>
+
+    <circle cx="552" cy="574" r="25" fill="#E9CAD7"/>
+    <text x="552" y="582" text-anchor="middle" font-family="Arial, Microsoft YaHei" font-size="23" font-weight="700" fill="#C16E6E">04</text>
+    <text x="604" y="569" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700" fill="#262626">{{TOC_ITEM_4_TITLE}}</text>
+    <text x="604" y="606" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="17" fill="#7A7A7A">{{TOC_ITEM_4_DESC}}</text>
+  </g>
+</svg>

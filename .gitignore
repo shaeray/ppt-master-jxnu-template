@@ -1,0 +1,14 @@
+.DS_Store
+._*
+__MACOSX/
+.AppleDouble/
+.LSOverride
+Icon?
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+*.tmp
+*.bak

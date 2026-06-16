@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>江西师范大学图表正文页模板</title>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="1280" height="7" fill="#A13838"/>
+    <rect x="58" y="598" width="1082" height="1.5" fill="#E9CAD7"/>
+  </g>
+  <g id="header">
+    <rect x="58" y="50" width="8" height="56" fill="#A13838"/>
+    <text x="84" y="86" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#262626">{{PAGE_TITLE}}</text>
+    <image href="brand_wordmark.png" x="986" y="48" width="198" height="41" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="chart_canvas">
+    <rect x="70" y="150" width="1080" height="456" rx="8" fill="#FFFFFF" stroke="#E9CAD7" stroke-width="1.5"/>
+    <line x1="152" y1="514" x2="1056" y2="514" stroke="#7A7A7A" stroke-width="1.5" stroke-opacity="0.36"/>
+    <line x1="152" y1="212" x2="152" y2="514" stroke="#7A7A7A" stroke-width="1.5" stroke-opacity="0.36"/>
+    <rect x="246" y="376" width="78" height="138" fill="#E9CAD7"/>
+    <rect x="398" y="318" width="78" height="196" fill="#A13838" fill-opacity="0.66"/>
+    <rect x="550" y="266" width="78" height="248" fill="#A13838"/>
+    <rect x="702" y="344" width="78" height="170" fill="#E9CAD7"/>
+    <rect x="854" y="240" width="78" height="274" fill="#C16E6E"/>
+    <polyline points="246,326 398,292 550,238 702,304 854,210 1006,268" fill="none" stroke="#FEC723" stroke-width="4"/>
+    <circle cx="246" cy="326" r="7" fill="#FEC723"/>
+    <circle cx="398" cy="292" r="7" fill="#FEC723"/>
+    <circle cx="550" cy="238" r="7" fill="#FEC723"/>
+    <circle cx="702" cy="304" r="7" fill="#FEC723"/>
+    <circle cx="854" cy="210" r="7" fill="#FEC723"/>
+    <circle cx="1006" cy="268" r="7" fill="#FEC723"/>
+    <text x="640" y="578" text-anchor="middle" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="24" fill="#7A7A7A">{{CONTENT_AREA}}</text>
+  </g>
+  <g id="footer">
+    <image href="motto.png" x="58" y="650" width="198" height="25" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1068" y="657" text-anchor="end" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="12" fill="#7A7A7A">{{SOURCE}}</text>
+    <text x="1174" y="674" text-anchor="middle" font-family="Arial, Microsoft YaHei" font-size="17" font-weight="700" fill="#A13838">{{PAGE_NUM}}</text>
+  </g>
+</svg>

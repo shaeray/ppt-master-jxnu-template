@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>江西师范大学章节页模板</title>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <image href="chapter_bg.jpeg" x="0" y="0" width="1280" height="360" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="0" y="0" width="1280" height="360" fill="#000000" fill-opacity="0.34"/>
+    <rect x="0" y="360" width="1280" height="9" fill="#A13838"/>
+    <rect x="0" y="369" width="1280" height="351" fill="#FFFFFF"/>
+  </g>
+  <g id="chapter_title">
+    <text x="126" y="463" font-family="Arial, Microsoft YaHei" font-size="84" font-weight="700" fill="#A13838" fill-opacity="0.22">{{CHAPTER_NUM}}</text>
+    <line x1="270" y1="496" x2="270" y2="584" stroke="#A13838" stroke-width="8"/>
+    <text x="306" y="496" font-family="Microsoft YaHei, Arial" font-size="46" font-weight="700" fill="#262626">{{CHAPTER_TITLE}}</text>
+    <text x="308" y="548" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="22" fill="#7A7A7A">{{CHAPTER_DESC}}</text>
+  </g>
+  <g id="footer">
+    <image href="brand_wordmark.png" x="94" y="642" width="184" height="38" preserveAspectRatio="xMidYMid meet"/>
+    <line x1="960" y1="666" x2="1186" y2="666" stroke="#A13838" stroke-width="2"/>
+  </g>
+</svg>

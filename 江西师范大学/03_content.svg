@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>江西师范大学标准正文页模板</title>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="1280" height="7" fill="#A13838"/>
+    <rect x="58" y="132" width="64" height="4" fill="#A13838"/>
+    <rect x="1062" y="548" width="140" height="140" fill="#E9CAD7" fill-opacity="0.26"/>
+  </g>
+  <g id="header">
+    <rect x="58" y="50" width="8" height="56" fill="#A13838"/>
+    <text x="84" y="86" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#262626">{{PAGE_TITLE}}</text>
+    <image href="brand_wordmark.png" x="986" y="48" width="198" height="41" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="key_message">
+    <rect x="58" y="154" width="1080" height="48" rx="8" fill="#F7F2F4"/>
+    <rect x="58" y="154" width="10" height="48" rx="5" fill="#A13838"/>
+    <text x="86" y="185" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" fill="#C16E6E">{{KEY_MESSAGE}}</text>
+  </g>
+  <g id="content_area">
+    <rect x="58" y="232" width="1080" height="390" rx="8" fill="#FFFFFF" stroke="#E9CAD7" stroke-width="1.5"/>
+    <text x="598" y="432" text-anchor="middle" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="26" fill="#7A7A7A">{{CONTENT_AREA}}</text>
+  </g>
+  <g id="footer">
+    <image href="motto.png" x="58" y="650" width="198" height="25" preserveAspectRatio="xMidYMid meet"/>
+    <text x="640" y="671" text-anchor="middle" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="14" fill="#7A7A7A">{{SECTION_NAME}}</text>
+    <text x="1098" y="671" text-anchor="end" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="12" fill="#7A7A7A">{{SOURCE}}</text>
+    <text x="1174" y="674" text-anchor="middle" font-family="Arial, Microsoft YaHei" font-size="17" font-weight="700" fill="#A13838">{{PAGE_NUM}}</text>
+  </g>
+</svg>

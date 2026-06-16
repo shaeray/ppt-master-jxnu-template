@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>江西师范大学双栏正文页模板</title>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="1280" height="7" fill="#A13838"/>
+    <rect x="618" y="184" width="1.6" height="430" fill="#E9CAD7"/>
+  </g>
+  <g id="header">
+    <rect x="58" y="50" width="8" height="56" fill="#A13838"/>
+    <text x="84" y="86" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#262626">{{PAGE_TITLE}}</text>
+    <image href="brand_wordmark.png" x="986" y="48" width="198" height="41" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="left_column">
+    <rect x="72" y="156" width="520" height="454" rx="8" fill="#F7F2F4"/>
+    <rect x="72" y="156" width="520" height="52" rx="8" fill="#A13838"/>
+    <text x="104" y="190" font-family="Microsoft YaHei, Arial" font-size="21" font-weight="700" fill="#FFFFFF">观点 / 方法</text>
+    <circle cx="118" cy="258" r="8" fill="#A13838"/>
+    <circle cx="118" cy="330" r="8" fill="#A13838"/>
+    <circle cx="118" cy="402" r="8" fill="#A13838"/>
+    <line x1="118" y1="266" x2="118" y2="394" stroke="#A13838" stroke-width="2" stroke-opacity="0.34"/>
+  </g>
+  <g id="right_column">
+    <rect x="660" y="156" width="520" height="454" rx="8" fill="#FFFFFF" stroke="#E9CAD7" stroke-width="1.5"/>
+    <rect x="660" y="156" width="520" height="52" rx="8" fill="#E9CAD7"/>
+    <text x="692" y="190" font-family="Microsoft YaHei, Arial" font-size="21" font-weight="700" fill="#C16E6E">证据 / 结果</text>
+    <rect x="708" y="260" width="382" height="18" rx="4" fill="#E9CAD7"/>
+    <rect x="708" y="314" width="322" height="18" rx="4" fill="#E9CAD7"/>
+    <rect x="708" y="368" width="432" height="18" rx="4" fill="#E9CAD7"/>
+  </g>
+  <g id="content_area">
+    <text x="640" y="544" text-anchor="middle" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="25" fill="#7A7A7A">{{CONTENT_AREA}}</text>
+  </g>
+  <g id="footer">
+    <image href="motto.png" x="58" y="650" width="198" height="25" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1174" y="674" text-anchor="middle" font-family="Arial, Microsoft YaHei" font-size="17" font-weight="700" fill="#A13838">{{PAGE_NUM}}</text>
+  </g>
+</svg>

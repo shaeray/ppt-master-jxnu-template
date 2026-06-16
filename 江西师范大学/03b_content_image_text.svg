@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>江西师范大学图文正文页模板</title>
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="1280" height="7" fill="#A13838"/>
+  </g>
+  <g id="header">
+    <rect x="58" y="50" width="8" height="56" fill="#A13838"/>
+    <text x="84" y="86" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#262626">{{PAGE_TITLE}}</text>
+    <image href="brand_wordmark.png" x="986" y="48" width="198" height="41" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="image_frame">
+    <rect x="66" y="152" width="492" height="468" rx="8" fill="#F7F2F4"/>
+    <rect x="94" y="182" width="436" height="316" rx="8" fill="#FFFFFF" stroke="#E9CAD7" stroke-width="1.6"/>
+    <path d="M116 456 L230 342 L304 408 L362 356 L506 456 Z" fill="#E9CAD7"/>
+    <circle cx="430" cy="256" r="34" fill="#A13838" fill-opacity="0.5"/>
+    <text x="312" y="550" text-anchor="middle" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="17" fill="#7A7A7A">图像 / 流程 / 案例区域</text>
+  </g>
+  <g id="text_panel">
+    <rect x="620" y="152" width="560" height="468" rx="8" fill="#FFFFFF" stroke="#E9CAD7" stroke-width="1.5"/>
+    <rect x="620" y="152" width="10" height="468" rx="5" fill="#A13838"/>
+    <text x="902" y="382" text-anchor="middle" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="26" fill="#7A7A7A">{{CONTENT_AREA}}</text>
+  </g>
+  <g id="footer">
+    <image href="motto.png" x="58" y="650" width="198" height="25" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1174" y="674" text-anchor="middle" font-family="Arial, Microsoft YaHei" font-size="17" font-weight="700" fill="#A13838">{{PAGE_NUM}}</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>江西师范大学结束页模板</title>
+  <defs>
+    <linearGradient id="endingShade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.64"/>
+      <stop offset="0.62" stop-color="#000000" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#A13838" stop-opacity="0.46"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <image href="cover_bg_aligned.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="0" y="0" width="1280" height="720" fill="url(#endingShade)"/>
+    <rect x="82" y="78" width="1116" height="562" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-opacity="0.5"/>
+  </g>
+  <g id="brand">
+    <image href="seal_white.png" x="592" y="132" width="96" height="96" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="ending_message">
+    <text x="640" y="344" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="62" font-weight="700" fill="#FFFFFF">{{THANK_YOU}}</text>
+    <line x1="508" y1="382" x2="772" y2="382" stroke="#A13838" stroke-width="5"/>
+    <text x="640" y="438" text-anchor="middle" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="24" fill="#FFFFFF" fill-opacity="0.92">{{ENDING_SUBTITLE}}</text>
+    <text x="640" y="508" text-anchor="middle" font-family="Microsoft YaHei Light, Microsoft YaHei, Arial" font-size="20" fill="#FFFFFF" fill-opacity="0.86">{{CONTACT_INFO}}</text>
+  </g>
+  <g id="motto">
+    <image href="motto_white.png" x="541" y="600" width="198" height="25" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+</svg>
