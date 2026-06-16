@@ -241,6 +241,8 @@ python3 scripts/svg_quality_checker.py templates/decks/江西师范大学 --temp
 
 `ppt-master` 原项目由 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) 提供，原项目使用 MIT License。
 
+本仓库的模板结构、说明文档和与 `ppt-master` 适配相关的文件按 [MIT License](LICENSE) 发布，并在 [NOTICE.md](NOTICE.md) 中保留上游来源和修改说明。
+
 本仓库是面向 `ppt-master` 的非官方 deck 模板，不代表江西师范大学官方发布或授权。
 
-模板中的学校标识、校名、校训、校园图片等资产请仅用于学习、内部汇报或合规授权范围内的演示场景。公开传播、商业使用或正式对外发布前，请自行确认相关标识和图片资产的使用权限。
+模板中的学校标识、校名、校训、校园图片等资产可能受单独的商标、品牌或版权限制，不因本仓库的 MIT License 自动获得自由商用授权。请仅用于学习、内部汇报或合规授权范围内的演示场景；公开传播、商业使用或正式对外发布前，请自行确认相关标识和图片资产的使用权限。
